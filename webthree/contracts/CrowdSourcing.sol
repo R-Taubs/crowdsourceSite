@@ -33,7 +33,11 @@ contract CrowdSourcing {
         numberOfCampaigns++;
     }
 
-    function donateToCampaign () {}
+    function donateToCampaign (uint256 _id) public payable {
+        uint256 amount = msg.value;
+
+        Campaign storage campaign
+    }
 
     function getDonators () {}
 
